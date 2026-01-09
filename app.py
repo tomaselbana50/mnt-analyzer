@@ -5,8 +5,9 @@ import streamlit as st
 import json
 
 # تحميل إعدادات المشروع من config.json
-with open("config.json", "r") as f:
+with open("config.json", encoding="utf-8-sig") as f:
     config = json.load(f)
+
 
 email_user = config["email"]
 global_price_ref = config["global_price_reference"]
