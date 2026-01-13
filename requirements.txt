@@ -1,11 +1,6 @@
-requests
-
-beautifulsoup4
-
-pandas
-
 streamlit
-
-schedule
-
-yagmail
+requests
+beautifulsoup4
+pandas
+sqlite3
+apscheduler
