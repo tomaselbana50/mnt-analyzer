@@ -1,5 +1,6 @@
 ﻿import streamlit as st
 import sqlite3
+import db   # 👈 السطر الجديد المهم
 
 DB_PATH = "mnt_analyzer.db"
 
